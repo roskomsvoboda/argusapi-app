@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ArgusAPI" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/main</item>
+        <item name="colorPrimaryVariant">@color/second</item>
+        <item name="colorOnPrimary">@color/third</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/main2</item>
+        <item name="colorSecondaryVariant">@color/main3</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/main</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
